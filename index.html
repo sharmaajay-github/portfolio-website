@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Sharma — Product-Oriented Operations Specialist</title>
+    <meta name="description"
+        content="Product-oriented Operations Specialist with 2.5+ years scaling AI (RLHF) workflows and EdTech marketplaces. Combines systems thinking with data-driven decision making.">
+    <meta property="og:title" content="Ajay Sharma — AI Team Lead @ Turing | HelloPM Fellow">
+    <meta property="og:description"
+        content="Product-oriented Operations Specialist with 2.5+ years scaling AI workflows and driving revenue growth through process automation.">
+    <meta property="og:type" content="website">
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%230A0F0D'/%3E%3Ctext x='32' y='38' text-anchor='middle' fill='%2300E5A0' font-family='sans-serif' font-weight='600' font-size='24'%3EAS%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a href="index.html" class="nav-logo"><span>AS</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="work.html">Work</a>
+                <a href="contact.html">Contact</a>
+                <a href="work.html" class="nav-cta">View My Work →</a>
+            </div>
+            <button class="theme-toggle" aria-label="Toggle light/dark mode">
+                <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5" />
+                    <line x1="12" y1="1" x2="12" y2="3" />
+                    <line x1="12" y1="21" x2="12" y2="23" />
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                    <line x1="1" y1="12" x2="3" y2="12" />
+                    <line x1="21" y1="12" x2="23" y2="12" />
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                </svg>
+                <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                </svg>
+            </button>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- ========== HERO ========== -->
+        <section class="hero" id="hero">
+            <canvas id="hero-canvas"></canvas>
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <p class="hero-intro">Hi, I'm Ajay Sharma —</p>
+                        <h1 class="hero-heading">
+                            <span class="word">I</span>
+                            <span class="word">optimize</span>
+                            <span class="word">systems</span><br>
+                            <span class="word accent-text">that</span>
+                            <span class="word accent-text">grow</span>
+                            <span class="word accent-text">products.</span>
+                        </h1>
+                        <p class="hero-sub">AI Team Lead @ Turing · HelloPM Fellow · 2.5+ years scaling AI workflows and
+                            driving revenue growth through process automation.</p>
+                        <div class="btn-group">
+                            <a href="work.html" class="btn btn--primary">See My Work →</a>
+                            <a href="assets/ajay_sharma_pm_resume.pdf" target="_blank" rel="noopener"
+                                class="btn btn--secondary">Download
+                                Resume</a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="sticker sticker--hero">Open to APM Roles ✦</div>
+                        <!-- PM Pipeline: Discovery → Delivery → Distribution -->
+                        <svg class="hero-pipeline-svg" viewBox="0 0 400 520" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <style>
+                                .hero-pipeline-svg {
+                                    --pm-accent: #3ECC90;
+                                    --pm-fill: #0F1A14;
+                                    --pm-text: #EAEDE8;
+                                    --pm-muted: rgba(62, 204, 144, 0.4);
+                                }
+
+                                [data-theme="light"] .hero-pipeline-svg {
+                                    --pm-fill: #FFFFFF;
+                                    --pm-text: #1a1a1a;
+                                }
+
+                                /* Sequential glow */
+                                @keyframes nodeGlow1 {
+
+                                    0%,
+                                    100% {
+                                        opacity: 0.35;
+                                    }
+
+                                    10%,
+                                    30% {
+                                        opacity: 1;
+                                    }
+                                }
+
+                                @keyframes nodeGlow2 {
+
+                                    0%,
+                                    100% {
+                                        opacity: 0.35;
+                                    }
+
+                                    40%,
+                                    60% {
+                                        opacity: 1;
+                                    }
+                                }
+
+                                @keyframes nodeGlow3 {
+
+                                    0%,
+                                    100% {
+                                        opacity: 0.35;
+                                    }
+
+                                    70%,
+                                    90% {
+                                        opacity: 1;
+                                    }
+                                }
+
+                                @keyframes labelFade1 {
+
+                                    0%,
+                                    100% {
+                                        opacity: 0;
+                                    }
+
+                                    10%,
+                                    30% {
+                                        opacity: 0.7;
+                                    }
+                                }
+
+                                @keyframes labelFade2 {
+
+                                    0%,
+                                    100% {
+                                        opacity: 0;
+                                    }
+
+                                    40%,
+                                    60% {
+                                        opacity: 0.7;
+                                    }
+                                }
+
+                                @keyframes labelFade3 {
+
+                                    0%,
+                                    100% {
+                                        opacity: 0;
+                                    }
+
+                                    70%,
+                                    90% {
+                                        opacity: 0.7;
+                                    }
+                                }
+
+                                @keyframes pulseTravel {
+                                    0% {
+                                        offset-distance: 0%;
+                                        opacity: 0;
+                                    }
+
+                                    5% {
+                                        opacity: 1;
+                                    }
+
+                                    95% {
+                                        opacity: 1;
+                                    }
+
+                                    100% {
+                                        offset-distance: 100%;
+                                        opacity: 0;
+                                    }
+                                }
+
+                                .pm-stage-1 {
+                                    animation: nodeGlow1 6s ease-in-out infinite;
+                                }
+
+                                .pm-stage-2 {
+                                    animation: nodeGlow2 6s ease-in-out infinite;
+                                }
+
+                                .pm-stage-3 {
+                                    animation: nodeGlow3 6s ease-in-out infinite;
+                                }
+
+                                .pm-label-1 {
+                                    animation: labelFade1 6s ease-in-out infinite;
+                                }
+
+                                .pm-label-2 {
+                                    animation: labelFade2 6s ease-in-out infinite;
+                                }
+
+                                .pm-label-3 {
+                                    animation: labelFade3 6s ease-in-out infinite;
+                                }
+
+                                .pm-pulse {
+                                    offset-path: path('M200,95 C200,95 200,140 200,140 C200,180 200,200 200,260 C200,300 200,320 200,320 C200,360 200,400 200,430');
+                                    animation: pulseTravel 3s linear infinite;
+                                }
+                            </style>
+
+                            <!-- Subtle grid background -->
+                            <defs>
+                                <pattern id="heroGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+                                    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="var(--pm-accent)"
+                                        stroke-width="0.12" opacity="0.2" />
+                                </pattern>
+                                <filter id="glowFilter">
+                                    <feGaussianBlur stdDeviation="4" result="blur" />
+                                    <feMerge>
+                                        <feMergeNode in="blur" />
+                                        <feMergeNode in="SourceGraphic" />
+                                    </feMerge>
+                                </filter>
+                            </defs>
+                            <rect width="400" height="520" fill="url(#heroGrid)" opacity="0.5" />
+
+                            <!-- ====== CONNECTING PATH ====== -->
+                            <path d="M200 95 L200 200" stroke="var(--pm-accent)" stroke-width="1" stroke-dasharray="4 4"
+                                opacity="0.2">
+                                <animate attributeName="stroke-dashoffset" values="0;-16" dur="1.5s"
+                                    repeatCount="indefinite" />
+                            </path>
+                            <path d="M200 260 L200 370" stroke="var(--pm-accent)" stroke-width="1"
+                                stroke-dasharray="4 4" opacity="0.2">
+                                <animate attributeName="stroke-dashoffset" values="0;-16" dur="1.5s" begin="0.5s"
+                                    repeatCount="indefinite" />
+                            </path>
+
+                            <!-- Traveling pulse dot along full path -->
+                            <circle r="4" fill="var(--pm-accent)" class="pm-pulse" filter="url(#glowFilter)" />
+
+                            <!-- ====== NODE 1: DISCOVERY ====== -->
+                            <g class="pm-stage-1">
+                                <rect x="75" y="40" width="250" height="55" rx="27" fill="var(--pm-fill)"
+                                    stroke="var(--pm-accent)" stroke-width="1.5" opacity="0.9" />
+                                <!-- Magnifying glass icon -->
+                                <circle cx="120" cy="67" r="9" stroke="var(--pm-accent)" stroke-width="1.2" fill="none"
+                                    opacity="0.8" />
+                                <line x1="127" y1="74" x2="133" y2="80" stroke="var(--pm-accent)" stroke-width="1.2"
+                                    opacity="0.8" />
+                                <!-- Label -->
+                                <text x="210" y="72" text-anchor="middle" fill="var(--pm-text)"
+                                    font-family="Inter, sans-serif" font-size="16" font-weight="600">Discovery</text>
+                            </g>
+                            <!-- Micro-label -->
+                            <text x="200" y="118" text-anchor="middle" fill="var(--pm-accent)"
+                                font-family="JetBrains Mono, monospace" font-size="8" letter-spacing="0.5"
+                                class="pm-label-1">Problem Space · User Research · Opportunity</text>
+
+                            <!-- ====== ARROW 1→2 ====== -->
+                            <polygon points="195,195 200,205 205,195" fill="var(--pm-accent)" opacity="0.4" />
+
+                            <!-- ====== NODE 2: DELIVERY ====== -->
+                            <g class="pm-stage-2">
+                                <rect x="75" y="205" width="250" height="55" rx="27" fill="var(--pm-fill)"
+                                    stroke="var(--pm-accent)" stroke-width="1.5" opacity="0.9" />
+                                <!-- Rocket icon -->
+                                <path d="M118 225 L125 240 L122 240 L122 248 L114 248 L114 240 L111 240 Z"
+                                    fill="var(--pm-accent)" opacity="0.6" />
+                                <!-- Label -->
+                                <text x="210" y="237" text-anchor="middle" fill="var(--pm-text)"
+                                    font-family="Inter, sans-serif" font-size="16" font-weight="600">Delivery</text>
+                            </g>
+                            <!-- Micro-label -->
+                            <text x="200" y="283" text-anchor="middle" fill="var(--pm-accent)"
+                                font-family="JetBrains Mono, monospace" font-size="8" letter-spacing="0.5"
+                                class="pm-label-2">Build · Iterate · Ship</text>
+
+                            <!-- ====== ARROW 2→3 ====== -->
+                            <polygon points="195,362 200,372 205,362" fill="var(--pm-accent)" opacity="0.4" />
+
+                            <!-- ====== NODE 3: DISTRIBUTION ====== -->
+                            <g class="pm-stage-3">
+                                <rect x="75" y="375" width="250" height="55" rx="27" fill="var(--pm-fill)"
+                                    stroke="var(--pm-accent)" stroke-width="1.5" opacity="0.9" />
+                                <!-- Signal/broadcast icon -->
+                                <circle cx="118" cy="402" r="4" fill="var(--pm-accent)" opacity="0.7" />
+                                <path d="M108 392 A14 14 0 0 1 108 412" fill="none" stroke="var(--pm-accent)"
+                                    stroke-width="1" opacity="0.4" />
+                                <path d="M103 387 A20 20 0 0 1 103 417" fill="none" stroke="var(--pm-accent)"
+                                    stroke-width="1" opacity="0.25" />
+                                <path d="M128 392 A14 14 0 0 0 128 412" fill="none" stroke="var(--pm-accent)"
+                                    stroke-width="1" opacity="0.4" />
+                                <path d="M133 387 A20 20 0 0 0 133 417" fill="none" stroke="var(--pm-accent)"
+                                    stroke-width="1" opacity="0.25" />
+                                <!-- Label -->
+                                <text x="210" y="407" text-anchor="middle" fill="var(--pm-text)"
+                                    font-family="Inter, sans-serif" font-size="16" font-weight="600">Distribution</text>
+                            </g>
+                            <!-- Micro-label -->
+                            <text x="200" y="453" text-anchor="middle" fill="var(--pm-accent)"
+                                font-family="JetBrains Mono, monospace" font-size="8" letter-spacing="0.5"
+                                class="pm-label-3">GTM · Growth · Feedback Loop</text>
+
+                            <!-- Corner brackets -->
+                            <path d="M15 15 L15 5 L25 5" stroke="var(--pm-accent)" stroke-width="0.5" opacity="0.2" />
+                            <path d="M385 505 L385 515 L375 515" stroke="var(--pm-accent)" stroke-width="0.5"
+                                opacity="0.2" />
+
+                            <!-- Bottom annotation -->
+                            <text x="200" y="500" text-anchor="middle" fill="var(--pm-accent)"
+                                font-family="JetBrains Mono, monospace" font-size="6.5" letter-spacing="2"
+                                opacity="0.2">PRODUCT MANAGEMENT PIPELINE</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== METRICS STRIP ========== -->
+        <section class="metrics-strip">
+            <div class="container">
+                <div class="metrics-grid">
+                    <div class="metric-item fade-in-up">
+                        <div class="metric-value" data-count="2.5" data-suffix="+">0</div>
+                        <div class="metric-label">Years · Product & Ops</div>
+                    </div>
+                    <div class="metric-item fade-in-up">
+                        <div class="metric-value" data-count="5000" data-suffix="+">0</div>
+                        <div class="metric-label">LLM Interactions Reviewed</div>
+                    </div>
+                    <div class="metric-item fade-in-up">
+                        <div class="metric-value" data-count="95" data-suffix="%+">0</div>
+                        <div class="metric-label">Data Accuracy Maintained</div>
+                    </div>
+                    <div class="metric-item fade-in-up">
+                        <div class="metric-value" data-count="21" data-suffix="%">0</div>
+                        <div class="metric-label">Conversion Uplift · Preplaced</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== FEATURED WORK ========== -->
+        <section id="work">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-label">Selected Work</span>
+                    <h2>Case Studies That Prove the Point</h2>
+                    <p>Not hypothetical frameworks. Real problems, real analyses, real outcomes.</p>
+                </div>
+
+                <div class="case-cards-stack">
+                    <!-- Card 1 — LinkedIn Engagement Agent (Feb 2026) -->
+                    <article class="case-card fade-in-up">
+                        <div class="case-card-inner">
+                            <div class="case-card-content">
+                                <span class="tag">Full-Stack AI Project</span>
+                                <h3>LinkedIn Engagement Agent</h3>
+                                <p>Prototyped a "Human-in-the-Loop" agent that automates low-value discovery while
+                                    preserving high-value manual interaction. Orchestrated a cost-optimized multi-model
+                                    pipeline via n8n (Tavily, DeepSeek, Claude 3.5) and deployed a live React &amp;
+                                    Supabase dashboard.</p>
+                                <span class="metric-pill">&#10022; 90% daily workflow time reduced</span>
+                            </div>
+                            <div class="case-card-visual">
+                                <div class="sticker">AI Agent &#10022;</div>
+                                <svg viewBox="0 0 280 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="20" y1="20" x2="20" y2="180" stroke="#00E5A0" stroke-width="0.3"
+                                        opacity="0.2" />
+                                    <line x1="60" y1="20" x2="60" y2="180" stroke="#00E5A0" stroke-width="0.3"
+                                        opacity="0.2" />
+                                    <line x1="100" y1="20" x2="100" y2="180" stroke="#00E5A0" stroke-width="0.3"
+                                        opacity="0.2" />
+                                    <line x1="140" y1="20" x2="140" y2="180" stroke="#00E5A0" stroke-width="0.3"
+                                        opacity="0.2" />
+                                    <line x1="180" y1="20" x2="180" y2="180" stroke="#00E5A0" stroke-width="0.3"
+                                        opacity="0.2" />
+                                    <line x1="220" y1="20" x2="220" y2="180" stroke="#00E5A0" stroke-width="0.3"
+                                        opacity="0.2" />
+                                    <line x1="260" y1="20" x2="260" y2="180" stroke="#00E5A0" stroke-width="0.3"
+                                        opacity="0.2" />
+                                    <line x1="20" y1="20" x2="260" y2="20" stroke="#00E5A0" stroke-width="0.3"
+                                        opacity="0.2" />
+                                    <line x1="20" y1="60" x2="260" y2="60" stroke="#00E5A0" stroke-width="0.3"
+                                        opacity="0.2" />
+                                    <line x1="20" y1="100" x2="260" y2="100" stroke="#00E5A0" stroke-width="0.3"
+                                        opacity="0.2" />
+                                    <line x1="20" y1="140" x2="260" y2="140" stroke="#00E5A0" stroke-width="0.3"
+                                        opacity="0.2" />
+                                    <line x1="20" y1="180" x2="260" y2="180" stroke="#00E5A0" stroke-width="0.3"
+                                        opacity="0.2" />
+                                    <circle cx="60" cy="60" r="4" fill="#00E5A0" opacity="0.4" />
+                                    <circle cx="140" cy="60" r="5" fill="#00E5A0" opacity="0.5" />
+                                    <circle cx="100" cy="100" r="6" fill="#00E5A0" opacity="0.3" />
+                                    <circle cx="220" cy="100" r="7" fill="#00E5A0" opacity="0.2" />
+                                    <circle cx="180" cy="140" r="4" fill="#00E5A0" opacity="0.3" />
+                                    <polyline points="60,60 100,100 140,60 180,140 220,100" stroke="#00E5A0"
+                                        stroke-width="1" fill="none" opacity="0.3" />
+                                </svg>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 2 — Swiggy Instamart Retention Feature (Dec 2025 - Jan 2026) -->
+                    <article class="case-card fade-in-up">
+                        <div class="case-card-inner">
+                            <div class="case-card-content">
+                                <span class="tag">Retention &amp; Growth</span>
+                                <h3>Swiggy Instamart Retention Feature</h3>
+                                <p>Identified retention leakage where 64% of "Planner" users shifted to offline vendors.
+                                    Designed a "Smart Cart" feature using Gemini API for real-time contextual
+                                    suggestions and developed an A/B test framework targeting 125K users.</p>
+                                <span class="metric-pill">&#10022; 10% projected lift in repeat orders</span>
+                            </div>
+                            <div class="case-card-visual">
+                                <div class="sticker">Smart Cart &#10022;</div>
+                                <svg viewBox="0 0 280 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="10" y="10" width="260" height="180" rx="8" stroke="#00E5A0"
+                                        stroke-width="0.8" opacity="0.4" />
+                                    <rect x="20" y="20" width="100" height="8" rx="2" fill="#00E5A0" opacity="0.15" />
+                                    <rect x="20" y="38" width="240" height="1" fill="#00E5A0" opacity="0.1" />
+                                    <rect x="20" y="50" width="240" height="60" rx="4" stroke="#00E5A0"
+                                        stroke-width="0.5" opacity="0.2" />
+                                    <rect x="30" y="60" width="80" height="6" rx="2" fill="#00E5A0" opacity="0.12" />
+                                    <rect x="30" y="74" width="120" height="4" rx="2" fill="#00E5A0" opacity="0.08" />
+                                    <rect x="30" y="84" width="100" height="4" rx="2" fill="#00E5A0" opacity="0.08" />
+                                    <rect x="30" y="94" width="60" height="8" rx="4" stroke="#00E5A0" stroke-width="0.5"
+                                        opacity="0.2" />
+                                    <rect x="20" y="120" width="115" height="60" rx="4" stroke="#00E5A0"
+                                        stroke-width="0.5" opacity="0.2" />
+                                    <rect x="145" y="120" width="115" height="60" rx="4" stroke="#00E5A0"
+                                        stroke-width="0.5" opacity="0.2" />
+                                    <circle cx="77" cy="145" r="10" stroke="#00E5A0" stroke-width="0.5" opacity="0.2" />
+                                    <circle cx="202" cy="145" r="10" stroke="#00E5A0" stroke-width="0.5"
+                                        opacity="0.2" />
+                                </svg>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div style="text-align: center; margin-top: 48px;" class="fade-in-up">
+                    <a href="work.html" class="text-link">View All Work →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== MY APPROACH ========== -->
+        <section id="approach">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-label">My Approach</span>
+                    <h2>I'm not a feature-builder. I'm a funnel-fixer.</h2>
+                </div>
+                <div class="approach-grid stagger-children">
+                    <div class="approach-card fade-in-up">
+                        <div class="approach-icon">🔍</div>
+                        <h4>Find the Leak</h4>
+                        <p>I start with the data, not assumptions. Where are users dropping? What's blocking conversion?
+                        </p>
+                    </div>
+                    <div class="approach-card fade-in-up">
+                        <div class="approach-icon">🧪</div>
+                        <h4>Form the Hypothesis</h4>
+                        <p>Every fix starts as an experiment. I define success metrics before writing a single
+                            requirement.</p>
+                    </div>
+                    <div class="approach-card fade-in-up">
+                        <div class="approach-icon">📈</div>
+                        <h4>Measure & Iterate</h4>
+                        <p>I ship, I measure, I adjust. Outcomes over outputs — always.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== EXPERIENCE ========== -->
+        <section id="experience">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-label">Experience</span>
+                    <h2>Where I've Operated</h2>
+                </div>
+                <div class="experience-grid stagger-children">
+                    <div class="experience-card fade-in-up">
+                        <span class="tag">June 2024 &#8211; Present</span>
+                        <h3>Team Lead (Promoted from Research Analyst)</h3>
+                        <p class="company">Turing</p>
+                        <ul>
+                            <li>Led a high-velocity team of 5-6 analysts executing RLHF and SFT workflows for Fortune
+                                500 AI clients, ensuring strict adherence to complex model alignment protocols and
+                                project timelines.</li>
+                            <li>Oversaw quality assurance for 5,000+ LLM interaction pairs, maintaining &gt;95% data
+                                accuracy by systematically identifying logic gaps and hallucination patterns in training
+                                datasets.</li>
+                            <li>Orchestrated daily stand-ups to identify operational bottlenecks and clarify edge cases,
+                                reducing resolution time for annotator queries and ensuring consistent delivery
+                                standards.</li>
+                            <li>Acted as the primary feedback loop between delivery leads and the annotation team,
+                                synthesizing common error patterns into actionable guidance to improve overall model
+                                performance.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-card fade-in-up">
+                        <span class="tag">Apr 2023 &#8211; Mar 2024</span>
+                        <h3>Associate Product Operations Manager</h3>
+                        <p class="company">Preplaced</p>
+                        <ul>
+                            <li>Strategized and launched tiered mentorship offerings (Basic vs. Premium), increasing
+                                service adoption rates by 10% (from 21% to 31%) and maximizing revenue per user through
+                                segmentation.</li>
+                            <li>Spearheaded the "Structured Mentorship" feature rollout to standardize user journeys,
+                                driving a 21% uplift in trial-to-paid conversion by clarifying value propositions for
+                                mentees.</li>
+                            <li>Implemented mentor accountability rules and attendance protocols to mitigate service
+                                gaps, reducing unattendance rates by 10% and ensuring consistent platform reliability.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SKILLS & TOOLS ========== -->
+        <section id="skills">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-label">Skills & Tools</span>
+                    <h2>The Stack I Think In</h2>
+                </div>
+                <div class="fade-in-up">
+                    <div class="skills-category">
+                        <div class="skills-category-label">Product Skills</div>
+                        <div class="skills-pills">
+                            <span class="skill-pill">User Research</span>
+                            <span class="skill-pill">A/B Testing</span>
+                            <span class="skill-pill">Funnel Optimization</span>
+                            <span class="skill-pill">GTM</span>
+                            <span class="skill-pill">Hypothesis Validation</span>
+                            <span class="skill-pill">Retention Modeling</span>
+                            <span class="skill-pill">User Story Mapping</span>
+                            <span class="skill-pill">Product Teardowns</span>
+                            <span class="skill-pill">PRDs</span>
+                            <span class="skill-pill">Roadmapping</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <div class="skills-category-label">Analytics</div>
+                        <div class="skills-pills">
+                            <span class="skill-pill">SQL</span>
+                            <span class="skill-pill">Mixpanel</span>
+                            <span class="skill-pill">Behavioral Analytics</span>
+                            <span class="skill-pill">Metric Definition</span>
+                            <span class="skill-pill">Data Visualization</span>
+                            <span class="skill-pill">Google Analytics</span>
+                            <span class="skill-pill">Excel / Sheets</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <div class="skills-category-label">AI &amp; Operations</div>
+                        <div class="skills-pills">
+                            <span class="skill-pill">RLHF</span>
+                            <span class="skill-pill">SFT Annotation</span>
+                            <span class="skill-pill">LLM Ops</span>
+                            <span class="skill-pill">Prompt Evaluation</span>
+                            <span class="skill-pill">Process Design</span>
+                            <span class="skill-pill">Quality Frameworks</span>
+                        </div>
+                    </div>
+                    <div class="skills-category">
+                        <div class="skills-category-label">Tools &amp; Platforms</div>
+                        <div class="skills-pills">
+                            <span class="skill-pill">n8n (Automation)</span>
+                            <span class="skill-pill">Jira</span>
+                            <span class="skill-pill">Figma</span>
+                            <span class="skill-pill">Google AI Studio</span>
+                            <span class="skill-pill">Python (Basic)</span>
+                            <span class="skill-pill">Postman</span>
+                            <span class="skill-pill">Notion</span>
+                            <span class="skill-pill">Miro</span>
+                            <span class="skill-pill">Zapier</span>
+                            <span class="skill-pill">Loom</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== ABOUT STRIP ========== -->
+        <section id="about-strip">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-label">The Person Behind the PM</span>
+                </div>
+                <div class="about-strip fade-in-up">
+                    <div class="portrait-placeholder">
+                        <img src="assets/ajay.jpg" alt="Ajay Sharma" class="portrait">
+                    </div>
+                    <div class="about-strip-content">
+                        <h2>Know Who I Am</h2>
+                        <p>I'm Ajay — a 24-year-old product-oriented operations specialist. I started in operations,
+                            learned to love data through real work at Preplaced and Turing, and now I'm obsessed with
+                            scaling AI workflows and driving revenue growth through process automation. I combine
+                            systems thinking with data-driven decision making to bridge the gap between technical
+                            execution and scalable product strategy.</p>
+                        <a href="about.html" class="text-link">Read My Full Story →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== FAQ ========== -->
+        <section id="faq">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-label">FAQs</span>
+                    <h2>Frequently Asked</h2>
+                </div>
+                <div class="faq-list fade-in-up">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Are you currently open to PM roles?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                <p>Yes — actively seeking APM and Product Analyst roles at data-driven B2C or B2B SaaS
+                                    companies, particularly in fintech, edtech, or AI-focused products.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            You don't have a CS degree — does that matter?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                <p>Not in practice. My work at Preplaced and Turing involved real product and systems
+                                    thinking. I'm also deep in structured PM education. What matters is the quality of
+                                    thinking — and that's what my portfolio demonstrates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            What kind of companies are you targeting?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                <p>Companies where the growth team owns a metric, not just a feature list. Teams that
+                                    run experiments, analyze cohorts, and care about activation and retention as much as
+                                    acquisition.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            How do you like to work?
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-inner">
+                                <p>Autonomously with clear metrics. Give me the "what to move" and I'll find the "how."
+                                    I prefer data over opinions and outcomes over activity.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CONTACT CTA ========== -->
+        <section id="contact-cta">
+            <div class="container">
+                <div class="contact-cta fade-in-up">
+                    <h2>Let's Build Something That Actually Converts.</h2>
+                    <p>Open to APM roles, Growth PM collaborations, and product teardown discussions.</p>
+                    <div class="btn-group">
+                        <a href="mailto:sharma.ajay.jobs@gmail.com" class="btn btn--primary">Email Me →</a>
+                        <a href="https://www.linkedin.com/in/workwithajay/" target="_blank" rel="noopener"
+                            class="btn btn--secondary">Connect on LinkedIn →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <span class="footer-name">Ajay Sharma</span>
+                    <span class="footer-tagline">AI Team Lead · HelloPM Fellow · Systems Thinker</span>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:sharma.ajay.jobs@gmail.com">Email</a>
+                    <a href="https://www.linkedin.com/in/workwithajay/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </div>
+            <div class="footer-credit">
+                Built by Ajay Sharma · 2026
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

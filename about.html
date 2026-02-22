@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — Ajay Sharma | AI Team Lead @ Turing</title>
+    <meta name="description"
+        content="Product-oriented Operations Specialist with 2.5+ years scaling AI (RLHF) workflows and EdTech marketplaces. Combines systems thinking with data-driven decision making.">
+    <meta property="og:title" content="About Ajay Sharma">
+    <meta property="og:description"
+        content="From fixing operational gaps to chasing funnel leaks — the honest version.">
+    <meta property="og:type" content="website">
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%230A0F0D'/%3E%3Ctext x='32' y='38' text-anchor='middle' fill='%2300E5A0' font-family='sans-serif' font-weight='600' font-size='24'%3EAS%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a href="index.html" class="nav-logo"><span>AS</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="work.html">Work</a>
+                <a href="contact.html">Contact</a>
+                <a href="work.html" class="nav-cta">View My Work →</a>
+            </div>
+            <button class="theme-toggle" aria-label="Toggle light/dark mode">
+                <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5" />
+                    <line x1="12" y1="1" x2="12" y2="3" />
+                    <line x1="12" y1="21" x2="12" y2="23" />
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                    <line x1="1" y1="12" x2="3" y2="12" />
+                    <line x1="21" y1="12" x2="23" y2="12" />
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                </svg>
+                <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                </svg>
+            </button>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- ========== HERO ========== -->
+        <section class="about-hero">
+            <div class="container">
+                <span class="section-label fade-in-up">About Me</span>
+                <h1 class="fade-in-up">The Story Behind the Systems Thinker</h1>
+                <p class="fade-in-up">From fixing operational gaps at Preplaced to leading AI teams at Turing — this is
+                    the honest version.
+                </p>
+                <div class="portrait-wrap fade-in-up">
+                    <img src="assets/ajay.jpg" alt="Ajay Sharma" class="portrait portrait--lg">
+                </div>
+                <div class="hero-image-placeholder fade-in-up">
+                    <div class="lifecycle-scroll-wrap">
+                        <h3 class="lifecycle-title">Product Lifecycle</h3>
+                        <svg id="lifecycle-svg" viewBox="0 0 1400 440" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            style="width:100%;height:auto;min-width:900px;">
+                            <style>
+                                #lifecycle-svg {
+                                    --lc-accent: #3ECC90;
+                                    --lc-fill: #0F1A14;
+                                    --lc-stroke: rgba(62, 204, 144, 0.55);
+                                    --lc-text: #EAEDE8;
+                                    --lc-primary-fill: #0D2A1A;
+                                }
+
+                                [data-theme="light"] #lifecycle-svg {
+                                    --lc-fill: #FFFFFF;
+                                    --lc-text: #1a1a1a;
+                                    --lc-primary-fill: #e8f5f0;
+                                    --lc-stroke: rgba(62, 204, 144, 0.5);
+                                }
+
+                                .lc-node {
+                                    opacity: 0;
+                                    transition: opacity 0.8s ease, filter 0.3s ease;
+                                }
+
+                                .lc-node.active {
+                                    opacity: 1;
+                                }
+
+                                .lc-node:hover rect {
+                                    filter: drop-shadow(0 0 8px rgba(62, 204, 144, 0.5));
+                                    cursor: pointer;
+                                }
+
+                                .lc-input rect {
+                                    fill: var(--lc-fill);
+                                    stroke: rgba(62, 204, 144, 0.25);
+                                    stroke-width: 1.2;
+                                }
+
+                                .lc-standard rect {
+                                    fill: var(--lc-fill);
+                                    stroke: var(--lc-stroke);
+                                    stroke-width: 1.5;
+                                }
+
+                                .lc-primary rect {
+                                    fill: var(--lc-primary-fill);
+                                    stroke: var(--lc-accent);
+                                    stroke-width: 2;
+                                }
+
+                                .lc-node text {
+                                    fill: var(--lc-text);
+                                    font-family: Inter, sans-serif;
+                                    font-size: 13px;
+                                }
+
+                                .lc-primary text {
+                                    font-weight: 700;
+                                    font-size: 14px;
+                                }
+
+                                .lc-connector {
+                                    stroke: var(--lc-accent);
+                                    stroke-width: 1.5;
+                                    opacity: 0.3;
+                                    fill: none;
+                                }
+
+                                .lc-feedback-arc {
+                                    stroke-dasharray: 6 4;
+                                }
+
+                                @keyframes roadmapGlow {
+
+                                    0%,
+                                    100% {
+                                        filter: drop-shadow(0 0 4px rgba(62, 204, 144, 0.2));
+                                    }
+
+                                    50% {
+                                        filter: drop-shadow(0 0 12px rgba(62, 204, 144, 0.5));
+                                    }
+                                }
+
+                                .lc-roadmap {
+                                    animation: roadmapGlow 3s ease-in-out infinite;
+                                }
+                            </style>
+                            <defs>
+                                <filter id="lcGlow">
+                                    <feGaussianBlur stdDeviation="3" result="blur" />
+                                    <feMerge>
+                                        <feMergeNode in="blur" />
+                                        <feMergeNode in="SourceGraphic" />
+                                    </feMerge>
+                                </filter>
+                            </defs>
+
+                            <!-- ===== CONNECTOR LINES (always visible) ===== -->
+                            <path id="c-user-idea" class="lc-connector" d="M90,220 L170,220" />
+                            <path id="c-market-idea" class="lc-connector" d="M130,111 L195,200" />
+                            <path id="c-data-idea" class="lc-connector" d="M250,111 L240,200" />
+                            <path id="c-stake-idea" class="lc-connector" d="M80,340 L195,240" />
+                            <path id="c-biz-idea" class="lc-connector" d="M213,340 L220,240" />
+                            <path id="c-idea-val" class="lc-connector" d="M280,220 L330,220" />
+                            <path id="c-val-road" class="lc-connector" d="M500,220 L550,220" />
+                            <path id="c-road-prd" class="lc-connector" d="M690,220 L740,220" />
+                            <path id="c-prd-sprint" class="lc-connector" d="M850,220 L900,220" />
+                            <path id="c-sprint-test" class="lc-connector" d="M975,220 L1025,220" />
+                            <path id="c-test-alpha" class="lc-connector" d="M1050,240 L1035,305" />
+                            <path id="c-test-beta" class="lc-connector" d="M1085,240 L1117,305" />
+                            <path id="c-test-gtm" class="lc-connector" d="M1110,220 L1160,220" />
+                            <path id="c-gtm-ab" class="lc-connector" d="M1200,200 L1255,156" />
+                            <path id="c-ab-data" class="lc-connector" d="M1277,120 L1275,78" />
+                            <path id="c-feedback" class="lc-connector lc-feedback-arc"
+                                d="M1240,60 C1180,5 320,5 250,111" />
+
+                            <!-- ===== FEEDBACK LOOP LABEL ===== -->
+                            <text class="lc-node" data-idx="10" x="760" y="18" text-anchor="middle"
+                                fill="var(--lc-accent)" font-family="JetBrains Mono, monospace" font-size="9"
+                                letter-spacing="2.5" opacity="0.5">FEEDBACK
+                                LOOP</text>
+
+                            <!-- ===== INPUT NODES ===== -->
+                            <g class="lc-node lc-input" data-idx="0"
+                                data-tip="User research, interviews, and feedback signals">
+                                <rect x="10" y="202" width="80" height="36" rx="8" /><text x="50" y="225"
+                                    text-anchor="middle">User</text>
+                            </g>
+                            <g class="lc-node lc-input" data-idx="0" data-tip="Competitive landscape and market trends">
+                                <rect x="90" y="75" width="80" height="36" rx="8" /><text x="130" y="98"
+                                    text-anchor="middle">Market</text>
+                            </g>
+                            <g class="lc-node lc-input" data-idx="0"
+                                data-tip="Analytics, metrics, and behavioral insights" id="data-left-group">
+                                <rect x="215" y="75" width="70" height="36" rx="8" /><text x="250" y="98"
+                                    text-anchor="middle">Data</text>
+                            </g>
+                            <g class="lc-node lc-input" data-idx="0"
+                                data-tip="Internal and external stakeholder requirements">
+                                <rect x="25" y="340" width="110" height="36" rx="8" /><text x="80" y="363"
+                                    text-anchor="middle">Stakeholder</text>
+                            </g>
+                            <g class="lc-node lc-input" data-idx="0"
+                                data-tip="Strategic objectives driving product direction">
+                                <rect x="168" y="340" width="90" height="36" rx="8" /><text x="213" y="363"
+                                    text-anchor="middle">Business</text>
+                            </g>
+
+                            <!-- ===== IDEATION ===== -->
+                            <g class="lc-node lc-standard" data-idx="1"
+                                data-tip="Brainstorming and idea generation from all inputs">
+                                <rect x="170" y="200" width="110" height="40" rx="10" /><text x="225" y="225"
+                                    text-anchor="middle">Ideation</text>
+                            </g>
+
+                            <!-- ===== MAIN CHAIN ===== -->
+                            <g class="lc-node lc-standard" data-idx="2"
+                                data-tip="Hypothesis testing and feature scoring by impact and effort">
+                                <rect x="330" y="196" width="170" height="48" rx="10" />
+                                <text x="415" y="216" text-anchor="middle" font-size="12">Validation &amp;</text>
+                                <text x="415" y="232" text-anchor="middle" font-size="12">Prioritization</text>
+                            </g>
+                            <g class="lc-node lc-primary lc-roadmap" data-idx="3"
+                                data-tip="The strategic roadmap — the north star of execution">
+                                <rect x="550" y="196" width="140" height="48" rx="10" />
+                                <text x="620" y="216" text-anchor="middle" font-size="13">Product</text>
+                                <text x="620" y="232" text-anchor="middle" font-size="13">Roadmap</text>
+                            </g>
+                            <g class="lc-node lc-standard" data-idx="4"
+                                data-tip="Product requirements and ordered backlog of work items">
+                                <rect x="740" y="200" width="110" height="40" rx="10" /><text x="795" y="224"
+                                    text-anchor="middle" font-size="12">PRD / Backlog</text>
+                            </g>
+                            <g class="lc-node lc-standard" data-idx="5"
+                                data-tip="Time-boxed development cycles for iterative delivery">
+                                <rect x="900" y="200" width="75" height="40" rx="10" /><text x="937" y="225"
+                                    text-anchor="middle">Sprint</text>
+                            </g>
+                            <g class="lc-node lc-standard" data-idx="6"
+                                data-tip="Quality assurance across alpha and beta stages">
+                                <rect x="1025" y="200" width="85" height="40" rx="10" /><text x="1067" y="225"
+                                    text-anchor="middle">Testing</text>
+                            </g>
+
+                            <!-- ===== ALPHA / BETA ===== -->
+                            <g class="lc-node lc-input" data-idx="7"
+                                data-tip="Internal testing with controlled user group">
+                                <rect x="1000" y="305" width="70" height="36" rx="8" /><text x="1035" y="328"
+                                    text-anchor="middle" font-size="12">Alpha</text>
+                            </g>
+                            <g class="lc-node lc-input" data-idx="7" data-tip="External testing with broader user base">
+                                <rect x="1085" y="305" width="65" height="36" rx="8" /><text x="1117" y="328"
+                                    text-anchor="middle" font-size="12">Beta</text>
+                            </g>
+
+                            <!-- ===== GTM ===== -->
+                            <g class="lc-node lc-standard" data-idx="8"
+                                data-tip="Go-to-market strategy and launch execution">
+                                <rect x="1160" y="200" width="60" height="40" rx="10" /><text x="1190" y="225"
+                                    text-anchor="middle">GTM</text>
+                            </g>
+
+                            <!-- ===== A/B TESTING ===== -->
+                            <g class="lc-node lc-input" data-idx="9"
+                                data-tip="Controlled experiments to optimize conversion">
+                                <rect x="1225" y="120" width="105" height="36" rx="8" /><text x="1277" y="143"
+                                    text-anchor="middle" font-size="12">A/B Testing</text>
+                            </g>
+
+                            <!-- ===== DATA (RIGHT) ===== -->
+                            <g class="lc-node lc-input" data-idx="10"
+                                data-tip="Performance data feeding back into the cycle" id="data-right-group">
+                                <rect x="1240" y="42" width="70" height="36" rx="8" /><text x="1275" y="65"
+                                    text-anchor="middle">Data</text>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== STORY ========== -->
+        <section>
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-label">My Journey</span>
+                    <h2>Read My Narrative</h2>
+                </div>
+                <div class="story-section fade-in-up">
+                    <p>I started in operations — not by choice, but by circumstance. At Preplaced, I strategized and
+                        launched tiered mentorship offerings, drove a 21% uplift in trial-to-paid conversion, and
+                        implemented accountability protocols that reduced unattendance rates by 10%. But somewhere in
+                        those process maps and user journeys, I found what I actually loved: understanding how systems
+                        fail and fixing them.</p>
+                    <p>At Turing, I lead a high-velocity team of 5-6 analysts executing RLHF and SFT workflows for
+                        Fortune 500 AI clients. I've overseen quality assurance for 5,000+ LLM interaction pairs,
+                        maintaining >95% data accuracy. It taught me something important — the quality of output is
+                        entirely determined by the quality of the process upstream. That's a product lesson, not just an
+                        operations one.</p>
+                    <p>Now I'm channeling all of it toward product strategy. Because the best product work is systems
+                        work — optimizing "Human-in-the-Loop" data pipelines, driving revenue growth through process
+                        automation, and bridging the gap between technical execution and scalable product strategy.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== BENTO GRID ========== -->
+        <section>
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-label">At a Glance</span>
+                    <h2>Let's Know More About Me</h2>
+                </div>
+                <div class="bento-grid stagger-children">
+                    <div class="bento-tile fade-in-up">
+                        <span class="bento-tile-label">Currently Learning</span>
+                        <div>
+                            <h4>Upskilling</h4>
+                            <p>SQL · Mixpanel · Behavioral Analytics · HelloPM AI Specialization</p>
+                        </div>
+                    </div>
+                    <div class="bento-tile fade-in-up">
+                        <span class="bento-tile-label">Currently Reading</span>
+                        <div>
+                            <h4>On the Shelf</h4>
+                            <p>Hacking Growth — Sean Ellis & Morgan Brown</p>
+                        </div>
+                    </div>
+                    <div class="bento-tile fade-in-up">
+                        <span class="bento-tile-label">Location</span>
+                        <div>
+                            <h4>Available Anywhere</h4>
+                            <p>Remote · Hybrid · On-site</p>
+                        </div>
+                    </div>
+                    <div class="bento-tile fade-in-up">
+                        <span class="bento-tile-label">Online</span>
+                        <div class="bento-social-links">
+                            <a href="https://www.linkedin.com/in/workwithajay/" target="_blank" rel="noopener"
+                                class="bento-social-link" aria-label="LinkedIn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                    <rect x="2" y="9" width="4" height="12" />
+                                    <circle cx="4" cy="4" r="2" />
+                                </svg>
+                            </a>
+                            <a href="mailto:sharma.ajay.jobs@gmail.com" class="bento-social-link" aria-label="Email">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                    <polyline points="22,6 12,13 2,6" />
+                                </svg>
+                            </a>
+                            <a href="https://github.com/sharmaajay-github" target="_blank" rel="noopener"
+                                class="bento-social-link" aria-label="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bento-tile fade-in-up">
+                        <span class="bento-tile-label">Currently Building</span>
+                        <div>
+                            <h4>In Progress</h4>
+                            <p>LinkedIn Engagement Agent + Swiggy Instamart Retention Feature</p>
+                        </div>
+                    </div>
+                    <div class="bento-tile fade-in-up">
+                        <span class="bento-tile-label">Identity</span>
+                        <div class="bento-tags">
+                            <span class="bento-tag">#SystemsThinking</span>
+                            <span class="bento-tag">#DataDriven</span>
+                            <span class="bento-tag">#GrowthMindset</span>
+                            <span class="bento-tag">#BuildInPublic</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== EXPERIENCE (Expanded) ========== -->
+        <section id="experience">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-label">Experience</span>
+                    <h2>Where I've Operated</h2>
+                </div>
+                <div class="experience-grid stagger-children">
+                    <div class="experience-card fade-in-up">
+                        <span class="tag">June 2024 &#8211; Present</span>
+                        <h3>Team Lead (Promoted from Research Analyst)</h3>
+                        <p class="company">Turing</p>
+                        <ul>
+                            <li>Led a high-velocity team of 5-6 analysts executing RLHF and SFT workflows for Fortune
+                                500 AI clients, ensuring strict adherence to complex model alignment protocols and
+                                project timelines.</li>
+                            <li>Oversaw quality assurance for 5,000+ LLM interaction pairs, maintaining &gt;95% data
+                                accuracy by systematically identifying logic gaps and hallucination patterns in training
+                                datasets.</li>
+                            <li>Orchestrated daily stand-ups to identify operational bottlenecks and clarify edge cases,
+                                reducing resolution time for annotator queries and ensuring consistent delivery
+                                standards.</li>
+                            <li>Acted as the primary feedback loop between delivery leads and the annotation team,
+                                synthesizing common error patterns into actionable guidance to improve overall model
+                                performance.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-card fade-in-up">
+                        <span class="tag">Apr 2023 &#8211; Mar 2024</span>
+                        <h3>Associate Product Operations Manager</h3>
+                        <p class="company">Preplaced</p>
+                        <ul>
+                            <li>Strategized and launched tiered mentorship offerings (Basic vs. Premium), increasing
+                                service adoption rates by 10% (from 21% to 31%) and maximizing revenue per user through
+                                segmentation.</li>
+                            <li>Spearheaded the "Structured Mentorship" feature rollout to standardize user journeys,
+                                driving a 21% uplift in trial-to-paid conversion by clarifying value propositions for
+                                mentees.</li>
+                            <li>Implemented mentor accountability rules and attendance protocols to mitigate service
+                                gaps, reducing unattendance rates by 10% and ensuring consistent platform reliability.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== EDUCATION ========== -->
+        <section id="education">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span class="section-label">Education</span>
+                    <h2>Academic Background</h2>
+                </div>
+                <div class="education-list fade-in-up">
+                    <div class="education-item">
+                        <h4>Product Management Cohort (AI Specialization)</h4>
+                        <p class="institution">HelloPM</p>
+                        <p class="year">Nov 2025 &#8211; Present</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>B.Tech in Electrical &amp; Computer Engineering</h4>
+                        <p class="institution">REVA University</p>
+                        <p class="year">2019 &#8211; 2023</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <span class="footer-name">Ajay Sharma</span>
+                    <span class="footer-tagline">AI Team Lead · HelloPM Fellow · Systems Thinker</span>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:sharma.ajay.jobs@gmail.com">Email</a>
+                    <a href="https://www.linkedin.com/in/workwithajay/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </div>
+            <div class="footer-credit">
+                Built by Ajay Sharma · 2026
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
